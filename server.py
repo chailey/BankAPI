@@ -1,7 +1,8 @@
 from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
 from sqlalchemy import create_engine
-from json import dumps
+
+
 
 db_connect = create_engine('sqlite:///USCCreditUnion.db')
 app = Flask(__name__)
@@ -39,21 +40,26 @@ class User(Resource):
     def post(self):
         pass
 
-class CardTypes(Resource):
+class CreditCardTypes(Resource):
     def get(self):
         conn = db_connect.connect()
-        query = conn.execute("select * from CardTypes")
-        return {'CardTypes': [i[0] for i in query.cursor.fetchall()]}
+        query = conn.execute("select type_num, type from CreditCardTypes")
+        return {'CreditCardTypes': [dict(zip(tuple (query.keys()) ,i)) for i in query.cursor]}
 
 class AccountTypes(Resource):
     def get(self):
         conn = db_connect.connect()
         query = conn.execute("select * from AccountTypes")
-        return {'AccountTypes': [i[0] for i in query.cursor.fetchall()]}
+        return {'AccountTypes': [dict(zip(tuple (query.keys()) ,i)) for i in query.cursor.fetchall()]}
 
-api.add_resource(CardTypes, '/CardTypes')
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+
+
+api.add_resource(CreditCardTypes, '/CreditCardTypes')
 api.add_resource(AccountTypes, '/AccountTypes')
 api.add_resource(User, '/User')
 
 if __name__ == '__main__':
-     app.run(port='5002')
+     app.run()
