@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d68f62f-cc31-4f04-bafb-e6c968f6f6ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/USCCreditUnion.db" beforeDir="false" afterPath="$PROJECT_DIR$/USCCreditUnion.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USCCreditUnion.db.sqbpro" beforeDir="false" afterPath="$PROJECT_DIR$/USCCreditUnion.db.sqbpro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+            <state relative-caret-position="993">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -33,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="db://23504af0-2143-406a-8229-d87e1ad14c88/consoles/USCCreditUnion">
           <provider selected="true" editor-type-id="0.CONSOLE">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0">
+            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -60,11 +58,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="475" />
-    <option name="y" value="176" />
-    <option name="width" value="1142" />
-    <option name="height" value="964" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="1" />
+    <option name="width" value="1932" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,25 +143,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="1" width="1932" height="1085" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="DB Browser" sideWeight="0.49934298" visible="true" weight="0.19029851" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.29944548" />
-      <window_info id="Structure" order="1" sideWeight="0.500657" side_tool="true" visible="true" weight="0.19029851" />
+      <window_info id="Structure" order="1" sideWeight="0.504717" side_tool="true" visible="true" weight="0.29807693" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="DB Execution Console" weight="0.3811007" />
+      <window_info id="DB Browser" order="3" sideWeight="0.495283" visible="true" weight="0.29807693" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20976116" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946582" visible="true" weight="0.33193278" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5005342" side_tool="true" visible="true" weight="0.33193278" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="DB Execution Console" order="11" weight="0.3802521" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -178,24 +176,18 @@
     <entry file="file://$PROJECT_DIR$/USCCreditUnion.db.sqbpro">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="db://437f5d63-cc21-4c10-aba8-5287b52e0412/consoles/USCCreditUnion">
-      <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="db://437f5d63-cc21-4c10-aba8-5287b52e0412/consoles/USCCreditUnion" />
     <entry file="db://23504af0-2143-406a-8229-d87e1ad14c88/consoles/USCCreditUnion">
       <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+        <state relative-caret-position="993">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

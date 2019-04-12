@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -25,13 +25,13 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="23504af0-2143-406a-8229-d87e1ad14c88">
-        <schema name="main" object-types="constraint, dataset trigger, index, column, table, view" />
+        <schema name="main" object-types="index, dataset trigger, column, view, constraint, table" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="23504af0-2143-406a-8229-d87e1ad14c88">
-      <console name="USCCreditUnion" type="STANDARD" schema="main" session="Main"><![CDATA[SELECT * FROM AccountTypes]]></console>
+      <console name="USCCreditUnion" type="STANDARD" schema="main" session="Main">SELECT * FROM AccountTypes</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
